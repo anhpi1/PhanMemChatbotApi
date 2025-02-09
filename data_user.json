@@ -1,0 +1,76 @@
+[
+    {
+        "cau_hoi": "You: What is comparator",
+        "nhan_so": [],
+        "nhan_chu": [],
+        "cau_tra_loi": [
+            "Sorry, I don't have an answer to your question."
+        ]
+    },
+    {
+        "cau_hoi": "how comparator work",
+        "nhan_so": [],
+        "nhan_chu": [],
+        "cau_tra_loi": [
+            "Sorry, I don't have an answer to your question."
+        ]
+    },
+    {
+        "cau_hoi": "What is comparison circuit",
+        "nhan_so": [],
+        "nhan_chu": [],
+        "cau_tra_loi": [
+            "Sorry, I don't have an answer to your question."
+        ]
+    },
+    {
+        "cau_hoi": "is the symbol for a comparator?",
+        "nhan_so": [],
+        "nhan_chu": [],
+        "cau_tra_loi": [
+            "Sorry, I don't have an answer to your question."
+        ]
+    },
+    {
+        "cau_hoi": "what is comparator",
+        "nhan_so": [
+            "[np.int64(1), 0, np.int64(12), 0, 0, 0, 0, 0, 0]"
+        ],
+        "nhan_chu": [
+            "['definition', '', 'comparator ', '', '', '', '', '', '']"
+        ],
+        "cau_tra_loi": [
+            "a comparator is a circuit that compares two analog input voltages and provides a digital output, typically a high or low voltage, indicating which input is larger"
+        ]
+    },
+    {
+        "cau_hoi": "What is comparison circuit",
+        "nhan_so": [
+            "[np.int64(1), np.int64(7), np.int64(12), 0, 0, 0, 0, 0, 0]",
+            "[np.int64(1), 0, np.int64(12), 0, 0, 0, 0, 0, 0]"
+        ],
+        "nhan_chu": [
+            "['definition', 'noise', 'comparator ', '', '', '', '', '', '']",
+            "['definition', '', 'comparator ', '', '', '', '', '', '']"
+        ],
+        "cau_tra_loi": [
+            "Like other analog circuits, noise is one of the main causes of distortion in the output results when the signal to be compared is contaminated by an unwanted amount of voltage or current, causing the magnitude of the signal to decrease or increase compared to its true value.",
+            "a comparator is a circuit that compares two analog input voltages and provides a digital output, typically a high or low voltage, indicating which input is larger"
+        ]
+    },
+    {
+        "cau_hoi": "how comparator work",
+        "nhan_so": [
+            "[np.int64(9), 0, np.int64(12), np.int64(1), 0, 0, 0, 0, 0]",
+            "[np.int64(9), 0, np.int64(12), 0, 0, 0, 0, 0, 0]"
+        ],
+        "nhan_chu": [
+            "['how circuit operation', '', 'comparator ', 'noisy environment', '', '', '', '', '']",
+            "['how circuit operation', '', 'comparator ', '', '', '', '', '', '']"
+        ],
+        "cau_tra_loi": [
+            "In a noisy environment, the output of a comparator can experience increased jitter, false switching, and reduced reliability, making it difficult to consistently detect the correct threshold. Noise can cause spurious transitions, widened pulses, and shift the effective threshold voltage.",
+            "BW=1/w. (with w is dominant pole )"
+        ]
+    }
+]
